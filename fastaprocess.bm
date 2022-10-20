@@ -19,7 +19,7 @@ for i in *.fasta; do
         else                                                                                                                                                                        
         seq_len=${#line}; echo "Read Length of Sequence: ${seq_len}" >> ReadLength.txt;                                                                                    
     fi;                                                                                                                                                             
-    done < $i;                                                                                                                                                          
-    done       
+  done < $i;                                                                                                                                                          
+  done       
     
-    mv ReadLengths.txt fasta_results
+ mv ReadLengths.txt fasta_results
